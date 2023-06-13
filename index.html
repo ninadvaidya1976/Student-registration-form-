@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>Student Registration Form </title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+<h2>Student Registration Form </h3>
+
+
+<table>
+  <table align="center" cellpadding = "10">
+ 
+<!--------------------- First Name ------------------------------------------>
+<tr>
+<td>First Name</td>
+<td><input type="text" name="FirstName" maxlength="50" placeholder="" />
+
+</td>
+</tr>
+ 
+<!------------------------ Last Name --------------------------------------->
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="LastName" maxlength="50" placeholder=""/>
+
+</td>
+</tr>
+ 
+<!-------------------------- Email ID ------------------------------------->
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder=""/></td>
+</tr>
+ 
+<!-------------------------- Mobile Number ------------------------------------->
+<tr>
+<td>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder=""/>
+
+</td>
+</tr>
+ 
+<!---------------------- Gender ------------------------------------->
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+
+<!--------------------------DOB----------------------------------->
+
+<tr>
+<td>Date of Birth(DOB)</td>
+ 
+<td>
+<select name="BirthDay" id="Birthday_Day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+
+</select>
+ 
+<select name="BirthdayMonth" id="Birthday_Month">
+<option value="-1">Month:</option>
+<option value="January">Jan</option>
+<option value="February">Feb</option>
+<option value="March">Mar</option>
+<option value="April">Apr</option>
+<option value="May">May</option>
+
+</select>
+ 
+<select name="BirthdayYear" id="Birthday_Year">
+  
+<option value="-1">Year:</option>
+
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+
+</select>
+</td>
+</tr>
+ 
+ 
+<!------------------------- Address ---------------------------------->
+<tr>
+<td>Address<br /><br /><br /></td>
+<td><textarea name="Address" rows="10" cols="50"></textarea></td>
+</tr>
+ 
+<!-------------------------- City ------------------------------------->
+<tr>
+<td>City</td>
+<td><input type="text" name="City" maxlength="50" placeholder=""/>
+
+</td>
+</tr>
+ 
+<!----- -------------------- Pin Code-------------------------------------->
+<tr>
+<td>Pin Code</td>
+<td><input type="Number" name="PinCode" maxlength="6" placeholder=""/>
+
+</td>
+</tr>
+ 
+<!---------------------------- State ----------------------------------->
+<tr>
+<td>State</td>
+<td><input type="text" name="State" maxlength="50" placeholder=""/>
+
+</td>
+</tr>
+ 
+<!------------------------------ Country --------------------------------->
+<tr>
+<td>Country</td>
+<td><input type="text" name="Country" placeholder="India" /></td>
+</tr>
+ 
+<!------------------------- Hobbies -------------------------------------->
+ 
+<tr>
+<td>Hobbies <br /><br /><br /></td>
+ 
+<td>
+<input type="checkbox" name="HobbyDrawing" value="Drawing" />
+Drawing
+<input type="checkbox" name="HobbySinging" value="Singing" />
+Singing
+<input type="checkbox" name="HobbyDancing" value="Dancing" />
+Dancing
+<input type="checkbox" name="HobbyCooking" value="Cooking" />
+Sketching
+<br />
+<input type="checkbox" name="HobbyOther" value="Other">
+Others
+<input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+
+</td>
+</tr>
+ 
+<!-----------------------Qualification---------------------------------------->
+
+<tr>
+<td>Qualification <br /><br /><br /></td>
+ 
+<td>
+<br/>
+<input type="checkbox" name="HighSchool" value="High School" />
+High School(10th) <br>
+<input type="checkbox" name="HigherSchool" value="Higher School" />
+Higher School(12th)<br/>
+<input type="checkbox" name="Graduation" value="Graduation" />
+Graduation(Bachelors)<br/>
+<input type="checkbox" name="PostGraduation" value="Post Graduation" />
+Post Graduation(Masters)<br/>
+
+</td>
+</tr>
+
+ 
+<!---------------------------- Courses ----------------------------------->
+<tr>
+<td>Courses<br />Applied For</td>
+<td>
+<input type="radio" name="CourseBCA" value="BCA">
+BCA(Bachelor of Computer Applications)<br>
+<input type="radio" name="CourseBCom" value="B.Com">
+B.Com(Bachelor of Commerce)<br>
+<input type="radio" name="CourseBSc" value="B.Sc">
+B.Sc(Bachelor of Science)<br>
+<input type="radio" name="CourseBA" value="B.A">
+BA(Bachelor of Arts)<br>
+<input type="radio" name="CourseMCA" value="BCA">
+MCA(Master of Computer Applications)<br>
+<input type="radio" name="CourseMCom" value="B.Com">
+M.Com(Master of Commerce)<br>
+<input type="radio" name="CourseMSc" value="B.Sc">
+M.Sc(Master of Science)<br>
+<input type="radio" name="CourseMA" value="B.A">
+MA(Master of Arts)<br>
+
+</td>
+</tr>
+ 
+<!----------------------- Submit and Reset ------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</td>
+</tr>
+</table>
+ </form>
+</body>
+</html>
